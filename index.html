@@ -2,31 +2,30 @@
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html lang="en">
-    <head>     
-  
-        <!-- TITLE OF SITE --> 
+<html lang="en"><head>
+
+        <!-- TITLE OF SITE -->
         <title>Design Wing</title>
-  
+
         <!-- Meta -->
         <meta charset="utf-8">
-        <meta name="description" content="Free Responsive Animated Portfolio Template" />
-        <meta name="keywords" content="portfolio, template, responsive, bootstrap" />
+        <meta name="description" content="Free Responsive Animated Portfolio Template">
+        <meta name="keywords" content="portfolio, template, responsive, bootstrap">
         <meta name="developer" content="TemplateOcean">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta name="robots" content="noindex">
 
         <!-- FAV AND TOUCH ICONS   -->
         <link rel="icon" href="image/favicon.ico">
-        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
         <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch<link rel="shortcut icon" href="/images/specialicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch&lt;link rel=" shortcut="" icon"="" type="image/x-icon">
         <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 
         <!-- GOOGLE FONTS -->
-        <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,700,900' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,700,900" rel="stylesheet" type="text/css">
         <!-- font-family: 'Merriweather', serif; -->
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet" type="text/css">
         <!-- font-family: 'Open Sans', sans-serif; -->
 
         <!-- BOOTSTRAP CSS -->
@@ -51,11 +50,11 @@
 
 
     </head>
-    <body class="style-1">
-        
+    <body class="style-1 desktop">
+
         <!-- Start: Preloader Section
         =================================== -->
-        <div id="main-preloader" class="main-preloader semi-dark-background">
+        <div id="main-preloader" class="main-preloader semi-dark-background" style="display: none;">
             <div class="container full-height">
                 <div class="row full-height">
                     <div class="full-height col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
@@ -63,15 +62,15 @@
                         <div class="main-preloader-inner">
 
                             <h1 class="preloader-percentage">
-                                <span class="preloader-percentage-text">0%</span> <!-- Show Percentage Number -->
+                                <span class="preloader-percentage-text">100%</span> <!-- Show Percentage Number -->
                                 <!-- <span class="percentage">%</span> -->
                             </h1>
                             <div class="preloader-bar-outer">
-                                <div class="preloader-bar"></div> <!-- Percentage Precess Bar -->
+                                <div class="preloader-bar" style="width: 100%;"></div> <!-- Percentage Precess Bar -->
                             </div>
 
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -83,12 +82,12 @@
 
         <!-- Start: Navbar  Area
         ============================= -->
-        <nav class="navbar navbar-fixed-top main-navbar-top navbar-top-js" id="main-navbar-top" >
+        <nav class="navbar navbar-fixed-top main-navbar-top navbar-top-js navbar-home" id="main-navbar-top">
             <div class="container relative">
                 <div class="navbar-header">
 
                     <!-- Menu Button show Mobile view -->
-                    <button type="button" class="nav-trigger nav-trigger-animate"  data-target="#js-navbar-menu">
+                    <button type="button" class="nav-trigger nav-trigger-animate" data-target="#js-navbar-menu">
                         <span aria-hidden="true" class="icon"></span>
                     </button>
 
@@ -96,21 +95,21 @@
                     <a class="navbar-brand light-logo btn-scroll" href="#home-section"><img src="images/logotest.png" alt="" class="img-responsive"></a>
 
                 </div>
-                
+
                 <!-- Main Menu List -->
                 <div class="navbar-collapse" id="js-navbar-menu">
                     <ul class="nav navbar-nav navbar-right" id="navbar-nav">
-                        <li><a class="btn-nav" href="#team-section">Team</a></li>
-                        <li><a class="btn-nav" href="#portfolio-section">Works</a></li>
-                        <li><a class="btn-nav" href="#contact-us-section">Contact</a></li>
+                        <li><a class="btn-nav" href="#team-section">Team<span class="view-all-link-mask"><span class="view-all-link-mask-text">Team</span></span></a></li>
+                        <li class="active"><a class="btn-nav" href="#portfolio-section">Works<span class="view-all-link-mask"><span class="view-all-link-mask-text">Works</span></span></a></li>
+                        <li class=""><a class="btn-nav" href="#contact-us-section">Contact<span class="view-all-link-mask"><span class="view-all-link-mask-text">Contact</span></span></a></li>
                     </ul>
                 </div>
 
 
                 <!-- Right Side Navigation Button -->
-                <div class="navbar-collapse-right hidden-xs " >
+                <div class="navbar-collapse-right hidden-xs ">
                     <ul class="nav navbar-nav navbar-right btn-scroll">
-                        <li><a class="btn-nav" href="#contact-us-section">Get in Touch <i class="icon icon-arrow-right"></i></a></li>
+                        <li><a class="btn-nav" href="#contact-us-section">Get in Touch <i class="icon icon-arrow-right"></i><span class="view-all-link-mask"><span class="view-all-link-mask-text">Get in Touch <i class="icon icon-arrow-right"></i></span></span></a></li>
                     </ul>
                 </div>
 
@@ -122,18 +121,18 @@
 
 
 
-        <!--Start: 1st Section  
-            - HOME PAGE 
+        <!--Start: 1st Section
+            - HOME PAGE
         ====================================-->
-        <div class="section section-item home-section overflow hide-overlay overlay-color bg-image-1 wow" id="home-section">
-            <div class="inner-container ">
+        <div class="section section-item home-section overflow hide-overlay overlay-color bg-image-1 wow active-animation active" id="home-section" style="height: initial; position: relative; visibility: visible;">
+            <div class="inner-container " style="padding-top: 170px; padding-bottom: 170px;">
                 <div class="container">
                     <div class="row">
-                        
+
                         <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
 
                             <div class="home-content-outer text-center">
-                                
+
                                 <div class="overflow">
                                     <div class="heading-outer left-right relative">
                                         <div class="heading-outer top-bottom relative">
@@ -143,22 +142,22 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div> 
+                                    </div>
                                 </div>
 
                                 <div class="overflow m-t-30">
                                     <div class="list-view">
                                         <ul class="nav btn-scroll">
-                                            <li><a class="btn-nav btn-mask" href="#team-section">Team</a></li>
-                                            <li><a class="btn-mask btn-nav" href="#portfolio-section">Works</a></li>
-                                            <li><a class="btn-mask" href="#contact-us-section">Contact</a></li>
+                                            <li><a class="btn-nav btn-mask" href="#team-section">Team<span class="view-all-link-mask"><span class="view-all-link-mask-text">Team</span></span></a></li>
+                                            <li><a class="btn-mask btn-nav" href="#portfolio-section">Works<span class="view-all-link-mask"><span class="view-all-link-mask-text">Works</span></span></a></li>
+                                            <li><a class="btn-mask" href="#contact-us-section">Contact<span class="view-all-link-mask"><span class="view-all-link-mask-text">Contact</span></span></a></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
 
                         </div>
-                        
+
                         <!-- Next Section Arrow -->
                         <div class="footer-button">
                             <div class="overflow m-t-30">
@@ -169,7 +168,7 @@
                         </div>
 
                         <!-- Home Page Buttom Navigation -->
-                        <nav class="navbar navbar-fixed-top main-navbar-top home-nav overflow">
+                        <nav class="navbar navbar-fixed-top main-navbar-top home-nav overflow navbar-home">
                             <div class="container relative home-nav-inner">
                                 <div class="navbar-header">
 
@@ -178,10 +177,10 @@
 
                                 </div>
 
-                                <div class="navbar-collapse-right" >
+                                <div class="navbar-collapse-right">
                                     <ul class="nav navbar-nav navbar-right btn-scroll">
                                         <li>
-                                            <a class="btn-nav btn-mask" href="#contact-us-section">Get in Touch <i class="icon icon-arrow-right"></i></a>
+                                            <a class="btn-nav btn-mask" href="#contact-us-section">Get in Touch <i class="icon icon-arrow-right"></i><span class="view-all-link-mask"><span class="view-all-link-mask-text">Get in Touch <i class="icon icon-arrow-right"></i></span></span></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -193,15 +192,15 @@
                     </div>
                 </div>
             </div>
-        </div> 
-        <!--End: 1st Section  
-            - HOME PAGE 
+        </div>
+        <!--End: 1st Section
+            - HOME PAGE
         ====================================-->
 
-   
 
 
-        <!--Start: 2nd Section  
+
+        <!--Start: 2nd Section
             - Portfolio PAGE
         ====================================-->
         <div class=" section section-item dark-background" id="portfolio-section">
@@ -210,13 +209,13 @@
                     <div class="row section-separator">
 
                         <div class="col-sm-12 overflow">
-                            <div class="row portfolio-container wow">
-                                <div class="portfolio-wrapper pagination-style-1 owl-carousel">
+                            <div class="row portfolio-container wow active" style="visibility: visible;">
+                                <div class="portfolio-wrapper pagination-style-1 owl-carousel owl-theme" style="opacity: 1; display: block;">
 
                                     <!-- SLIDES -->
 
-                                    <div class="item ">
-                                        
+                                    <div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 7020px; left: 0px; display: block; transition: all 0ms ease; transform: translate3d(0px, 0px, 0px);"><div class="owl-item active" style="width: 1170px;"><div class="item ">
+
                                         <div class="porifolio-section overflow">
 
                                             <div class="col-xs-10 col-xs-offset-1">
@@ -228,11 +227,11 @@
                                             </div>
 
                                             <div class="each-portfolio-heading">
-                                                <div class="heading-text overflow wow">
+                                                <div class="heading-text overflow wow active" style="visibility: visible;">
                                                     <div class="line"></div>
                                                     <div class="overflow">
                                                         <div class="sub-heading-outer">
-                                                            <p class="sub-heading">BRANDING &AMP; DESIGN</p>
+                                                            <p class="sub-heading">BRANDING &amp; DESIGN</p>
                                                         </div>
                                                     </div>
                                                     <div class="text overflow">
@@ -242,10 +241,10 @@
                                                     </div>
                                                 </div>
 
-                                                <div class="link-list overflow wow">
+                                                <div class="link-list overflow wow active" style="visibility: visible;">
                                                     <div class="link two overflow">
                                                         <div class="inner">
-                                                            <a class="btn btn-slider right-icon btn-mask"  data-element="slider">VIEW ALL POSTERS <i class="icon icon-arrow-right"></i></a>
+                                                            <a class="btn btn-slider right-icon btn-mask" data-element="slider">VIEW ALL POSTERS <i class="icon icon-arrow-right"></i><span class="view-all-link-mask"><span class="view-all-link-mask-text">VIEW ALL POSTERS <i class="icon icon-arrow-right"></i></span></span></a>
                                                         </div>
                                                     </div>
                                                     <div class="line hidden-xs"></div>
@@ -254,40 +253,39 @@
 
                                             <div class="col-md-10 col-md-offset-1 col-sm-12 slider-outer">
                                                 <div class="overflow">
-                                                    <div class="slider text-center">
-                                                        
-                                                        <div class="project-slider-outer">
-                                                            <div class="project-slider owl-carousel">
+                                                    <div class="slider text-center" style="display: none;">
 
-                                                                <div class="item">
+                                                        <div class="project-slider-outer">
+                                                            <div class="project-slider owl-carousel owl-theme" style="opacity: 0; display: block;">
+
+                                                                <div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 1000px; left: 0px; display: block; transition: all 0ms ease; transform: translate3d(0px, 0px, 0px);"><div class="owl-item" style="width: 100px;"><div class="item">
                                                                     <img src="images/posters-1.png" alt="Slider Images" class="img-responsive">
-                                                                </div>
-                                                                <div class="item">
+                                                                </div></div><div class="owl-item" style="width: 100px;"><div class="item">
                                                                     <img src="images/posters-2.png" alt="Slider Images" class="img-responsive">
-                                                                </div>
-                                                                <div class="item">
+                                                                </div></div><div class="owl-item" style="width: 100px;"><div class="item">
                                                                     <img src="images/posters-3.png" alt="Slider Images" class="img-responsive">
-                                                                </div>
-                                                                <div class="item">
+                                                                </div></div><div class="owl-item" style="width: 100px;"><div class="item">
                                                                     <img src="images/posters-4.png" alt="Slider Images" class="img-responsive">
-                                                                </div>
-                                                                <div class="item">
+                                                                </div></div><div class="owl-item" style="width: 100px;"><div class="item">
                                                                     <img src="images/posters-5.png" alt="Slider Images" class="img-responsive">
-                                                                </div>
-                                                            </div>
+                                                                </div></div></div></div>
+
+
+
+
+                                                            <div class="owl-controls"><div class="owl-pagination"><div class="owl-page active"><span class=""></span></div><div class="owl-page"><span class=""></span></div><div class="owl-page"><span class=""></span></div><div class="owl-page"><span class=""></span></div><div class="owl-page"><span class=""></span></div></div><div class="owl-buttons"><div class="owl-prev">prev</div><div class="owl-next">next</div></div></div></div>
                                                         </div>
 
                                                         <div class="btn-outer text-left">
-                                                            <a href="#" class="btn left-icon btn-slider-back btn-mask"><i class="icon icon-arrow-left"></i> BACK TO POSTERS</a>
+                                                            <a href="#" class="btn left-icon btn-slider-back btn-mask"><i class="icon icon-arrow-left"></i> BACK TO GALLERY<span class="view-all-link-mask"><span class="view-all-link-mask-text"><i class="icon icon-arrow-left"></i> BACK TO GALLERY</span></span></a>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div> 
+                                        </div>
 
-                                    </div> <!-- End: .item -->
-                                    <div class="item ">
-                                        
+                                    </div></div><div class="owl-item" style="width: 1170px;"><div class="item ">
+
                                         <div class="porifolio-section overflow">
 
                                             <div class="col-xs-10 col-xs-offset-1">
@@ -299,11 +297,11 @@
                                             </div>
 
                                             <div class="each-portfolio-heading">
-                                                <div class="heading-text overflow wow">
+                                                <div class="heading-text overflow wow active" style="visibility: visible;">
                                                     <div class="line"></div>
                                                     <div class="overflow">
                                                         <div class="sub-heading-outer">
-                                                            <p class="sub-heading">BRANDING &AMP; DESIGN</p>
+                                                            <p class="sub-heading">BRANDING &amp; DESIGN</p>
                                                         </div>
                                                     </div>
                                                     <div class="text overflow">
@@ -313,10 +311,10 @@
                                                     </div>
                                                 </div>
 
-                                                <div class="link-list overflow wow">
+                                                <div class="link-list overflow wow active" style="visibility: visible;">
                                                     <div class="link two overflow">
                                                         <div class="inner">
-                                                            <a class="btn btn-slider right-icon btn-mask"  data-element="slider">VIEW ALL T-SHIRTS <i class="icon icon-arrow-right"></i></a>
+                                                            <a class="btn btn-slider right-icon btn-mask" data-element="slider">VIEW ALL T-SHIRTS <i class="icon icon-arrow-right"></i><span class="view-all-link-mask"><span class="view-all-link-mask-text">VIEW ALL T-SHIRTS <i class="icon icon-arrow-right"></i></span></span></a>
                                                         </div>
                                                     </div>
                                                     <div class="line hidden-xs"></div>
@@ -325,50 +323,49 @@
 
                                             <div class="col-md-10 col-md-offset-1 col-sm-12 slider-outer">
                                                 <div class="overflow">
-                                                    <div class="slider text-center">
-                                                        
-                                                        <div class="project-slider-outer">
-                                                            <div class="project-slider owl-carousel">
+                                                    <div class="slider text-center" style="display: none;">
 
-                                                                <div class="item">
+                                                        <div class="project-slider-outer">
+                                                            <div class="project-slider owl-carousel owl-theme" style="opacity: 0; display: block;">
+
+                                                                <div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 600px; left: 0px; display: block; transition: all 0ms ease; transform: translate3d(0px, 0px, 0px);"><div class="owl-item" style="width: 100px;"><div class="item">
                                                                     <img src="images/tshirt-1.png" alt="Slider Images" class="img-responsive">
-                                                                </div>
-                                                                <div class="item">
+                                                                </div></div><div class="owl-item" style="width: 100px;"><div class="item">
                                                                     <img src="images/tshirt-2.png" alt="Slider Images" class="img-responsive">
-                                                                </div>
-                                                                <div class="item">
+                                                                </div></div><div class="owl-item" style="width: 100px;"><div class="item">
                                                                     <img src="images/tshirt-3.png" alt="Slider Images" class="img-responsive">
-                                                                </div>                                                                
-                                                            </div>
+                                                                </div></div></div></div>
+
+
+                                                            <div class="owl-controls"><div class="owl-pagination"><div class="owl-page active"><span class=""></span></div><div class="owl-page"><span class=""></span></div><div class="owl-page"><span class=""></span></div></div><div class="owl-buttons"><div class="owl-prev">prev</div><div class="owl-next">next</div></div></div></div>
                                                         </div>
 
                                                         <div class="btn-outer text-left">
-                                                            <a href="#" class="btn left-icon btn-slider-back btn-mask"><i class="icon icon-arrow-left"></i> BACK TO T-SHIRTS</a>
+                                                            <a href="#" class="btn left-icon btn-slider-back btn-mask"><i class="icon icon-arrow-left"></i> BACK TO GALLERY<span class="view-all-link-mask"><span class="view-all-link-mask-text"><i class="icon icon-arrow-left"></i> BACK TO GALLERY</span></span></a>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div> 
+                                        </div>
 
-                                    </div> <!-- End: .item -->
-                                    <div class="item ">
-                                        
+                                    </div></div><div class="owl-item" style="width: 1170px;"><div class="item ">
+
                                         <div class="porifolio-section overflow">
 
                                             <div class="col-xs-10 col-xs-offset-1">
                                                 <div class="row">
                                                     <div class="image text-center">
-                                                        <iframe width="800" height="600" src="https://www.youtube.com/embed/MWjbjjhBzmw" frameborder="0" allowfullscreen></iframe>
+                                                        <iframe width="800" height="600" src="https://www.youtube.com/embed/MWjbjjhBzmw" frameborder="0" allowfullscreen=""></iframe>
                                                     </div>
                                                 </div>
                                             </div>
 
                                             <div class="each-portfolio-heading">
-                                                <div class="heading-text overflow wow">
+                                                <div class="heading-text overflow wow active" style="visibility: visible;">
                                                     <div class="line"></div>
                                                     <div class="overflow">
                                                         <div class="sub-heading-outer">
-                                                            <p class="sub-heading">BRANDING &AMP; DESIGN</p>
+                                                            <p class="sub-heading">BRANDING &amp; DESIGN</p>
                                                         </div>
                                                     </div>
                                                     <div class="text overflow">
@@ -378,25 +375,27 @@
                                                     </div>
                                                 </div>
 
-                                                <div class="link-list overflow wow">
+                                                <div class="link-list overflow wow active" style="visibility: visible;">
                                                 	<div class="link one overflow">
                                                         <div class="inner">
-                                                            <a class="btn right-icon btn-mask" href="https://www.youtube.com/user/effervescenceMM13" target="_blank">VIEW ALL EFFE VIDEOS<i class="icon icon-arrow-right"></i></a>
+                                                            <a class="btn right-icon btn-mask" href="https://www.youtube.com/user/effervescenceMM13" target="_blank">VIEW ALL EFFE VIDEOS<i class="icon icon-arrow-right"></i><span class="view-all-link-mask"><span class="view-all-link-mask-text">VIEW ALL EFFE VIDEOS<i class="icon icon-arrow-right"></i></span></span></a>
                                                         </div>
                                                     </div>
                                                     <div class="link two overflow">
                                                         <div class="inner">
-                                                            <a href="https://www.youtube.com/channel/UCAxvq8zFisOvEblOnbpr8XA" class="btn right-icon btn-mask" target="_blank">VIEW ALL GEEKHAVEN VIDEOS <i class="icon icon-arrow-right"></i></a>
+                                                            <a href="https://www.youtube.com/channel/UCAxvq8zFisOvEblOnbpr8XA" class="btn right-icon btn-mask" target="_blank">VIEW ALL GEEKHAVEN VIDEOS <i class="icon icon-arrow-right"></i><span class="view-all-link-mask"><span class="view-all-link-mask-text">VIEW ALL GEEKHAVEN VIDEOS <i class="icon icon-arrow-right"></i></span></span></a>
                                                         </div>
                                                     </div>
                                                     <div class="line hidden-xs"></div>
                                                 </div>
                                             </div>
-									 </div> 
+									 </div>
 
-                                    </div> <!-- End: .item -->
+                                    </div></div></div></div> <!-- End: .item -->
+                                     <!-- End: .item -->
+                                     <!-- End: .item -->
 
-                                </div> <!-- End: .swiper-wrapper -->
+                                <div class="owl-controls"><div class="owl-pagination"><div class="owl-page active"><span class=""></span></div><div class="owl-page"><span class=""></span></div><div class="owl-page"><span class=""></span></div></div></div></div> <!-- End: .swiper-wrapper -->
                             </div> <!-- End: .testimonials-container -->
                         </div> <!-- End: .col-xs-12 -->
 
@@ -405,34 +404,34 @@
             </div> <!-- End: .inner-container -->
 
         </div>
-        <!--End: 3rd Section  
+        <!--End: 3rd Section
             - Portfolio PAGE
         ====================================-->
-        
 
-        <!--Start: 5th Section  
+
+        <!--Start: 5th Section
             - OUR TEAM PAGE
         ====================================-->
         <div class=" section section-item combine-section hide-overlay overflow dark-background" id="team-section">
             <div class="inner-container team-member dark-background">
                 <div class="container">
                     <div class="row section-separator sp-bottom">
-                        
+
                         <!-- Start: Section Heading -->
                         <div class="section-header col-sm-10 col-sm-offset-1">
                             <div class="overflow">
                                 <div class="line-outer">
-                                    <div class="line wow"></div>
+                                    <div class="line wow active" style="visibility: visible;"></div>
                                 </div>
                             </div>
                             <div class="overflow">
                                 <div class="section-heading-outer m-b-15">
-                                    <p class="sub-heading wow">OUR TEAM</p>
-                                </div> 
+                                    <p class="sub-heading wow active" style="visibility: visible;">OUR TEAM</p>
+                                </div>
                             </div>
                             <div class="overflow">
                                 <div class="section-heading-outer p-l-50 p-r-50">
-                                    <h2 class="section-heading wow">Our Amazing Team</h2>
+                                    <h2 class="section-heading wow active" style="visibility: visible;">Our Amazing Team</h2>
                                 </div>
                             </div>
                         </div>
@@ -441,7 +440,7 @@
 
                         <div class="col-sm-12 grid-item m-t-30">
 
-                                <div class="col-md-3 col-sm-6 col-xs-12 each-item overflow text-center relative wow">
+                                <div class="col-md-3 col-sm-6 col-xs-12 each-item overflow text-center relative wow active" style="visibility: visible;">
                                     <div class="item-inner overflow absolute">
 
                                         <div class="profile-outer center">
@@ -460,9 +459,9 @@
 
                                     </div>
                                 </div> <!-- End: .each-item -->
-                               
-                                     
-                                <div class="col-md-3 col-sm-6 col-xs-12 each-item overflow text-center relative wow">
+
+
+                                <div class="col-md-3 col-sm-6 col-xs-12 each-item overflow text-center relative wow active" style="visibility: visible;">
                                     <div class="item-inner overflow absolute">
 
                                         <div class="profile-outer center">
@@ -481,15 +480,17 @@
 
                                     </div>
                                 </div> <!-- End: .each-item -->
-							
-                                <div class="col-md-3 col-sm-6 col-xs-12 each-item overflow text-center relative wow">
+
+                                <div class="col-md-3 col-sm-6 col-xs-12 each-item overflow text-center relative wow active" style="visibility: visible;">
                                     <div class="item-inner overflow absolute">
 
                                         <div class="profile-outer center">
                                             <div class="profile-image">
                                                 <img src="images/testimonial/anmol.jpg" alt="Team Member" class="">
                                             </div>
-                                            <div class="profile-content">
+                                            <div class="profile-content" style="
+    margin-top: 13px;
+">
                                                 <span class="name">ANMOL SINGH SETHI</span>
                                                 <span class="position">Autodidact | Explorer</span>
                                             </div>
@@ -501,16 +502,20 @@
 
                                     </div>
                                 </div> <!-- End: .each-item -->
-                                <div class="col-md-3 col-sm-6 col-xs-12 each-item overflow text-center relative wow">
+                                <div class="col-md-3 col-sm-6 col-xs-12 each-item overflow text-center relative wow active" style="visibility: visible;">
                                     <div class="item-inner overflow absolute">
 
-                                        <div class="profile-outer center">
+                                        <div class="profile-outer center" style="
+    margin-left: 18px;
+">
                                             <div class="profile-image">
                                                 <img src="images/testimonial/himank.png" alt="Team Member" class="">
                                             </div>
-                                            <div class="profile-content">
+                                            <div class="profile-content" style="
+    margin-top: -10px;
+">
                                                 <span class="name">HIMANK GOEL</span>
-                                                <span class="position">&emsp;The Crazy One &emsp;</span>
+                                                <span class="position">The Crazy One</span>
                                             </div>
                                         </div>
                                         <div class="content-detail">
@@ -523,39 +528,47 @@
 
                                     </div>
                                 </div> <!-- End: .each-item -->
-                                <div class="col-md-3 col-sm-6 col-xs-12 each-item overflow text-center relative wow">
+                                <div class="col-md-3 col-sm-6 col-xs-12 each-item overflow text-center relative wow active" style="visibility: visible;">
                                     <div class="item-inner overflow absolute">
 
-                                        <div class="profile-outer center">
+                                        <div class="profile-outer center" style="
+    margin-left: -25px;
+">
                                             <div class="profile-image">
                                                 <img src="images/testimonial/lekhika.png" alt="Team Member" class="">
                                             </div>
-                                            <div class="profile-content">
+                                            <div class="profile-content" style="
+    margin-top: 38px;
+">
                                                 <span class="name">LEKHIKA DUGTAL</span>
                                                 <span class="position">Self proclaimed HUMAN BEING</span>
                                             </div>
                                         </div>
                                         <div class="content-detail">
-                                            <p>Lekhika is an  enthusiastic learner. In designing, she likes working on vector illustration and challenging herself to new ideas. 
+                                            <p>Lekhika is an  enthusiastic learner. In designing, she likes working on vector illustration and challenging herself to new ideas.
 												A poetess by nature, you can find her rumbling songs to penning down few stories in her free time.</p>
                                         </div>
 
                                     </div>
                                 </div> <!-- End: .each-item -->
-                                <div class="col-md-3 col-sm-6 col-xs-12 each-item overflow text-center relative wow">
+                                <div class="col-md-3 col-sm-6 col-xs-12 each-item overflow text-center relative wow active" style="visibility: visible;">
                                     <div class="item-inner overflow absolute">
 
-                                        <div class="profile-outer center">
+                                        <div class="profile-outer center" style="
+    margin-left: -5px;
+">
                                             <div class="profile-image">
                                                 <img src="images/testimonial/sid.jpg" alt="Team Member" class="">
                                             </div>
-                                            <div class="profile-content">
+                                            <div class="profile-content" style="
+    margin-top: 19px;
+">
                                                 <span class="name">S.SIDDHARTH</span>
                                                 <span class="position">Executive Procrastinator</span>
                                             </div>
                                         </div>
                                         <div class="content-detail">
-                                            <p>Siddharth is creating designs for over an year and is totally occupied by designing. He doesn't do complex shit. He believes in making things amazing using the most simple techniques.</p>	
+                                            <p>Siddharth is creating designs for over an year and is totally occupied by designing. He doesn't do complex shit. He believes in making things amazing using the most simple techniques.</p>
                                             <a href="https://www.facebook.com/siddharth.simharaju" target="_blank"><i class="fa fa-facebook fa-lg fa-fw my-icons" aria-hidden="true"></i></a>
                                             <a href="https://www.instagram.com/sid_harth98/?hl=en" target="_blank"><i class="fa fa-instagram fa-lg fa-fw my-icons" aria-hidden="true"></i></a>
                                             <a href="https://www.linkedin.com/in/siddharthsimharaju/" target="_blank"><i class="fa fa-linkedin fa-lg fa-fw my-icons" aria-hidden="true"></i></a>
@@ -563,10 +576,12 @@
 
                                     </div>
                                 </div> <!-- End: .each-item -->
-                                <div class="col-md-3 col-sm-6 col-xs-12 each-item overflow text-center relative wow">
+                                <div class="col-md-3 col-sm-6 col-xs-12 each-item overflow text-center relative wow active" style="visibility: visible;">
                                     <div class="item-inner overflow absolute">
 
-                                        <div class="profile-outer center">
+                                        <div class="profile-outer center" style="
+    margin-left: 10px;
+">
                                             <div class="profile-image">
                                                 <img src="images/testimonial/mankar.jpg" alt="Team Member" class="">
                                             </div>
@@ -596,38 +611,38 @@
                 </div> <!-- End: .container -->
             </div> <!-- End: .inner-container -->
 
-        </div>
-        <!--End: 5th Section  
+
+        <!--End: 5th Section
             - OUR TEAM PAGE
         ====================================-->
 
 
 
-        <!--Start: 6th Section  
+        <!--Start: 6th Section
             - CONTACT US PAGE
         ====================================-->
-        <div class=" section section-item combine-section hide-overlay overflow wow" id="contact-us-section">
+        <div class=" section section-item combine-section hide-overlay overflow wow active" id="contact-us-section" style="visibility: visible;">
             <div class="overlay-color relative bg-image-2">
 
                 <div class="inner-container contact-us" id="contact">
                     <div class="container">
                         <div class="row">
-                            
+
                             <!-- Start: Section Heading -->
                             <div class="section-header col-sm-10 col-sm-offset-1">
                                 <div class="overflow">
                                     <div class="line-outer">
-                                        <div class="line wow"></div>
+                                        <div class="line wow active" style="visibility: visible;"></div>
                                     </div>
                                 </div>
                                 <div class="overflow">
                                     <div class="section-heading-outer m-b-15">
-                                        <p class="sub-heading wow">CONTACT US</p>
-                                    </div> 
+                                        <p class="sub-heading wow active" style="visibility: visible;">CONTACT US</p>
+                                    </div>
                                 </div>
                                 <div class="overflow">
                                     <div class="section-heading-outer p-l-50 p-r-50">
-                                        <h2 class="section-heading wow">Let's talk about the project</h2>
+                                        <h2 class="section-heading wow active" style="visibility: visible;">Let's talk about the project</h2>
                                     </div>
                                 </div>
                             </div>
@@ -636,8 +651,8 @@
                             <div class="clearfix"></div>
 
                             <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 overflow">
-                                <div class="row single-form-outer wow">
-                                    
+                                <div class="row single-form-outer wow active" style="visibility: visible;">
+
                                     <form id="contact-form" method="post" class="dark-background single-form" action="php/sendmail.php">
 
                                         <div class="message col-xs-12">
@@ -646,11 +661,11 @@
                                             <p class="email-failed"><i class="icon icon-icon-close-alt2"></i> Something went wrong!</p>
                                         </div>
 
-                                        
+
                                         <div class="col-sm-6 col-xs-12">
                                             <div class="input-outer">
                                                 <div class="group relative">
-                                                    <input name="name" class="contact-name form-control" id="contact-name" type="text"  required="">
+                                                    <input name="name" class="contact-name form-control" id="contact-name" type="text" required="">
                                                     <label class="input-label" for="contact-name">
                                                         <span class="label-text">YOUR NAME</span>
                                                     </label>
@@ -661,7 +676,7 @@
                                         <div class="col-sm-6 col-xs-12">
                                             <div class="input-outer ">
                                                 <div class="group relative">
-                                                    <input name="name" class="contact-email form-control" id="contact-email" type="email"  required="">
+                                                    <input name="name" class="contact-email form-control" id="contact-email" type="email" required="">
                                                     <label class="input-label" for="contact-email">
                                                         <span class="label-text">YOUR EMAIL</span>
                                                     </label>
@@ -672,7 +687,7 @@
                                         <div class="col-sm-6 col-xs-12">
                                             <div class="input-outer ">
                                                 <div class="group relative">
-                                                    <input name="name" class="contact-company form-control" id="contact-company" type="text"  required="">
+                                                    <input name="name" class="contact-company form-control" id="contact-company" type="text" required="">
                                                     <label class="input-label" for="contact-company">
                                                         <span class="label-text">COMPANY</span>
                                                     </label>
@@ -683,7 +698,7 @@
                                         <div class="col-sm-6 col-xs-12">
                                             <div class="input-outer ">
                                                 <div class="group relative">
-                                                    <input name="name" class="contact-subject form-control" id="contact-subject" type="text"  required="">
+                                                    <input name="name" class="contact-subject form-control" id="contact-subject" type="text" required="">
                                                     <label class="input-label" for="contact-subject">
                                                         <span class="label-text">SUBJECT</span>
                                                     </label>
@@ -701,7 +716,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        
+
                                         <!-- Subject Button -->
                                         <div class="btn-form text-center col-xs-12">
                                             <div class="button-outer relative">
@@ -717,11 +732,11 @@
 
                             <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 contact-footer">
                                 <div class="row">
-                                    
+
                                     <div class="about col-sm-1 m-t-15">
 
                                         <div class="overflow">
-                                            <div class="logo-outer wow">
+                                            <div class="logo-outer wow active" style="visibility: visible;">
                                                 <a href="index.html" class="logo-link">
                                                     <img src="images/logo.png" alt="" class="img-responsive logo">
                                                 </a>
@@ -731,27 +746,27 @@
                                     </div> <!-- End: .about -->
                                     <div class="other-link col-sm-11">
                                         <div class="row">
-                                            
+
                                             <div class="each-section col-sm-4 col-xs-12">
                                                 <div class="each-section-inner">
-                                                    
+
                                                     <div class="overflow">
-                                                        <p class="title wow">California office</p>
+                                                        <p class="title wow active" style="visibility: visible;">California office</p>
                                                     </div>
                                                     <ul class="nav">
                                                         <li class="overflow">
-                                                            <div class="li-inner wow">
+                                                            <div class="li-inner wow active" style="visibility: visible;">
                                                                 4243 Woodland Terrace
                                                             </div>
                                                         </li>
                                                         <li class="overflow">
-                                                            <div class="li-inner wow">
+                                                            <div class="li-inner wow active" style="visibility: visible;">
                                                                 Sacramento, CA 95814
                                                             </div>
                                                         </li>
                                                         <li class="overflow">
-                                                            <div class="li-inner wow">
-                                                                <a href="callto:9167532645" class="btn-mask">916 753 2645</a>
+                                                            <div class="li-inner wow active" style="visibility: visible;">
+                                                                <a href="callto:9167532645" class="btn-mask">916 753 2645<span class="view-all-link-mask"><span class="view-all-link-mask-text">916 753 2645</span></span></a>
                                                             </div>
                                                         </li>
                                                     </ul>
@@ -760,24 +775,24 @@
                                             </div> <!-- End: .each-section -->
                                             <div class="each-section col-sm-4 col-xs-12">
                                                 <div class="each-section-inner">
-                                                    
+
                                                     <div class="overflow">
-                                                        <p class="title wow">new york office</p>
+                                                        <p class="title wow active" style="visibility: visible;">new york office</p>
                                                     </div>
                                                     <ul class="nav">
                                                         <li class="overflow">
-                                                            <div class="li-inner wow">
+                                                            <div class="li-inner wow active" style="visibility: visible;">
                                                                 885 Oakwood Avenue
                                                             </div>
                                                         </li>
                                                         <li class="overflow">
-                                                            <div class="li-inner wow">
+                                                            <div class="li-inner wow active" style="visibility: visible;">
                                                                 New York, NY 10013
                                                             </div>
                                                         </li>
                                                         <li class="overflow">
-                                                            <div class="li-inner wow">
-                                                                <a href="callto:2126600744" class="btn-mask">212 660 0744</a>
+                                                            <div class="li-inner wow active" style="visibility: visible;">
+                                                                <a href="callto:2126600744" class="btn-mask">212 660 0744<span class="view-all-link-mask"><span class="view-all-link-mask-text">212 660 0744</span></span></a>
                                                             </div>
                                                         </li>
                                                     </ul>
@@ -786,18 +801,18 @@
                                             </div> <!-- End: .each-section -->
                                             <div class="each-section col-sm-4 col-xs-12">
                                                 <div class="each-section-inner">
-                                                    
+
                                                     <div class="overflow">
-                                                        <p class="title wow">Other Contact</p>
+                                                        <p class="title wow active" style="visibility: visible;">Other Contact</p>
                                                     </div>
                                                     <ul class="nav">
                                                         <li class="overflow">
-                                                            <div class="li-inner wow">
-                                                                <a href="mailto:jobs@templateocean.com" class="btn-mask">jobs@templateocean.com</a>
+                                                            <div class="li-inner wow active" style="visibility: visible;">
+                                                                <a href="mailto:jobs@templateocean.com" class="btn-mask">jobs@templateocean.com<span class="view-all-link-mask"><span class="view-all-link-mask-text">jobs@templateocean.com</span></span></a>
                                                             </div>
                                                         </li>
                                                         <li class="overflow">
-                                                            <div class="li-inner wow">
+                                                            <div class="li-inner wow active" style="visibility: visible;">
                                                                 <ul class="nav social-icon">
                                                                     <li><a href="#"><i class="icon icon-social-facebook"></i></a></li>
                                                                     <li><a href="#"><i class="icon icon-social-twitter"></i></a></li>
@@ -807,7 +822,7 @@
                                                             </div>
                                                         </li>
                                                     </ul>
-                                                
+
                                                 </div>
                                             </div> <!-- End: .each-section -->
 
@@ -820,31 +835,32 @@
                         </div> <!-- End: .row -->
                     </div> <!-- End: .container -->
                 </div> <!-- End: .inner-container -->
-                
+
             </div>
 
         </div>
-        <!--End: 6th Section  
+        <!--End: 6th Section
             - CONTACT US PAGE
         ====================================-->
 
 
 
 
-        
-        <!-- SCRIPTS 
+
+        <!-- SCRIPTS
         ========================================-->
         <script src="js/plagin-js/jquery-1.11.3.js"></script>
         <script src="js/plagin-js/preloader.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
         <script src="js/plagin-js/plagin.js"></script>
 
-        <!-- Custom Script 
+        <!-- Custom Script
         ==========================================-->
         <script src="js/custom-scripts.js"></script>
 
 
 
-    </body>
 
-</html>
+
+
+</body></html>
