@@ -45,7 +45,7 @@
 -------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 [ Color codes ]
-    
+
     [ Text and Background Color ]
         Main color 1:       #aa49de (purple)    [ Gradient color 1 ]
         Main color 2:       #4954de (blue)      [ Gradient color 2 ]
@@ -66,7 +66,7 @@
 
     [Background color ]
         2. Light:           #FFFFFF;
-    
+
     [ Shadow color ]
         shadow-color:       rgba(0, 0, 0, 0.12);
 
@@ -92,7 +92,7 @@
         Typography 2: Rayeway and Poppins font;
         Typography 3: Montserrat and Roboto font;
         Typography 4: Exo and Poppins font;
-    
+
     [ Other Typography style are same ]
     Body :
         font-style:     normal;
@@ -113,7 +113,7 @@
         font-style:     normal;
         font-size:      35px;
 
-    p:  
+    p:
         font-style:     normal;
         font-size:      15px;
 
@@ -126,7 +126,7 @@
 -------------------------------------------------------------------*/
 /**
  * ===============================
- *  Defult CSS 
+ *  Defult CSS
  * ===============================
  */
 body {
@@ -322,7 +322,7 @@ section.section {
 }
 /**
  * ===============================
- *  Section Top and Bottom padding  
+ *  Section Top and Bottom padding
  * ===============================
  */
 .section-separator {
@@ -670,12 +670,12 @@ section.section {
 .p-l-50 {
   padding-left: 50px;
 }
-/** 
+/**
  * ======================
  * Social Icon Style
  * ======================
  */
-/** 
+/**
  * ======================
  * Social Icon Style
  * ======================
@@ -782,7 +782,7 @@ section.section {
 }
 /**
  * =========================
- * Form Style 
+ * Form Style
  * =========================
  */
 .single-form {
@@ -971,7 +971,7 @@ section.section {
   }
   /**
      * ===============================
-     *  Defult CSS 
+     *  Defult CSS
      * ===============================
      */
   html *,
@@ -2366,6 +2366,114 @@ section.section {
   perspective: 1000;
   height: 330px;
 }
+
+.as:hover .parent-div{
+  position: relative;
+}
+
+.as:hover .child-div-img{
+  position: absolute;
+  left: 43px;
+}
+
+.as:hover div.profile-content.child-div-cont{
+  position: absolute;
+  left: -5px;
+  top: 109px;
+}
+
+.rr:hover .parent-div{
+  position: relative;
+}
+
+.rr:hover .child-div-img{
+  position: absolute;
+  left: 42px;
+  top: -3px;
+}
+
+.rr:hover div.profile-content.child-div-cont{
+  position: absolute;
+  left: 27px;
+  top: 72px;
+}
+
+.ass:hover .parent-div{
+  position: relative;
+}
+
+.ass:hover .child-div-img{
+  position: absolute;
+  left: 45px;
+}
+
+.ass:hover div.profile-content.child-div-cont{
+  position: absolute;
+  left: 2px;
+  top: 104px;
+}
+
+.hg:hover .parent-div{
+  position: relative;
+}
+
+.hg:hover .child-div-img{
+  position: absolute;
+  left: 46px;
+}
+
+.hg:hover div.profile-content.child-div-cont{
+  position: absolute;
+  left: 24px;
+  top: 81px;
+}
+
+.ld:hover .parent-div{
+  position: relative;
+}
+
+.ld:hover .child-div-img{
+  position: absolute;
+  left: 44px;
+}
+
+.ld:hover div.profile-content.child-div-cont{
+  position: absolute;
+  left: -24px;
+  top: 126px;
+}
+
+.ss:hover .parent-div{
+  position: relative;
+}
+
+.ss:hover .child-div-img{
+  position: absolute;
+  left: 43px;
+  top: -3px;
+}
+
+.ss:hover div.profile-content.child-div-cont{
+  position: absolute;
+  left: -3px;
+  top: 102px;
+}
+
+.vm:hover .parent-div{
+  position: relative;
+}
+
+.vm:hover .child-div-img{
+  position: absolute;
+  left: 43px;
+}
+
+.vm:hover div.profile-content.child-div-cont{
+  position: absolute;
+  left: 14px;
+  top: 86px;
+}
+
 @media (min-width: 0px) {
   .team-member .each-item {
     padding-left: 30px;
@@ -3573,7 +3681,7 @@ section.section {
   -webkit-transition-delay: 1s ;
   transition-delay: 1s ;
 }
-/* Active Style 
+/* Active Style
  * When add this active class then work this style */
 .owl-item.active .each-portfolio-heading {
   /* Heading Title Style */
